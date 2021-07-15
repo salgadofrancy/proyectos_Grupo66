@@ -1,8 +1,16 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Bienvenido al Cine");
 
         //cliente Uno
+
+        Scanner sca = new Scanner(System.in);
+        System.out.println("Ingrese su cédula: ");
+        String cedula = sca.nextLine();
+        System.out.println("Ingrese su nombre: ");
+        String nombre = sca.nextLine();
 
         Cliente clienteUno = new Cliente();
         clienteUno.setCedula("19358163");
