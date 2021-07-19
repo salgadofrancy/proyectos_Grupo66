@@ -46,7 +46,7 @@ public class App {
         pruebaContenedor.generarLista();
      
         //Lista de objetos. creamos un objeto de tipo cliente, para luego pasarle esos datos a la lista
-        System.out.println("CEACION DE CLIENTES");
+        System.out.println("CREACION DE CLIENTES");
         String opcion = "S";
         while (opcion.equalsIgnoreCase("S")) { // Ignora mayúsculas
             //Ingresa datos por teclado
@@ -59,16 +59,18 @@ public class App {
             int id = sca.nextInt();
             
             // crea objeto cliente
-            Cliente nuevoCliente = new Cliente();
+            /*Cliente nuevoCliente = new Cliente();
             nuevoCliente.setCedula(cedula);
             nuevoCliente.setNombre(nombre);
-            nuevoCliente.setId(id);
+            nuevoCliente.setId(id); */
+            // la linea siguiente reemplaza las 4 anteriores
+            Cliente nuevoCliente = new Cliente(cedula, nombre, id);
             
             //Agrega cliente a la lista
             pruebaContenedor.agregarCliente(nuevoCliente);
             
             //Preguntar nuevo cliente
-            System.out.println("Desea agregar otro cliente? (s / n):");
+            System.out.println("Desea agregar otro cliente? (S / N):");
             opcion = sca.next();
             sca.nextLine();
         }
