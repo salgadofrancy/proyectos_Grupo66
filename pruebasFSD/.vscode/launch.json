@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "pruebasFSD_c202974a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeerMultipliNum",
+            "request": "launch",
+            "mainClass": "LeerMultipliNum",
+            "projectName": "pruebasFSD_c202974a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CuentaCifras",
+            "request": "launch",
+            "mainClass": "CuentaCifras",
+            "projectName": "pruebasFSD_c202974a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Saludo",
+            "request": "launch",
+            "mainClass": "Saludo",
+            "projectName": "pruebasFSD_c202974a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio",
+            "request": "launch",
+            "mainClass": "Ejercicio",
+            "projectName": "pruebasFSD_c202974a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aleatorio",
+            "request": "launch",
+            "mainClass": "Aleatorio",
+            "projectName": "pruebaMC_f503729c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "projectName": "pruebaMC_f503729c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClasesW",
+            "request": "launch",
+            "mainClass": "ClasesW",
+            "projectName": "pruebaMC_f503729c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cadena",
+            "request": "launch",
+            "mainClass": "Cadena",
+            "projectName": "pruebaMC_f503729c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio",
+            "request": "launch",
+            "mainClass": "Ejercicio",
+            "projectName": "pruebaMC_f503729c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ciclowhile",
+            "request": "launch",
+            "mainClass": "ciclowhile",
+            "projectName": "pruebaP35_c030ad98"
+        },
+        {
+            "type": "java",
+            "name": "Launch ciclosfor",
+            "request": "launch",
+            "mainClass": "ciclosfor",
+            "projectName": "pruebaP35_c030ad98"
+        },
+        {
+            "type": "java",
+            "name": "Launch Condicionales",
+            "request": "launch",
+            "mainClass": "Condicionales",
+            "projectName": "pruebaP35_c030ad98"
+        },
+        {
+            "type": "java",
+            "name": "Launch datos",
+            "request": "launch",
+            "mainClass": "datos",
+            "projectName": "pruebaP35_caa9fa1c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "pruebaP35_caa9fa1c"
+        }
+    ]
+}
