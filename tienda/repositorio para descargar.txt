@@ -1,0 +1,3 @@
+https://github.com/cesardiaz-utp/MisionTIC2022-Ciclo2-Unidad4-JPA
+git clone https://github.com/cesardiaz-utp/MisionTIC2022-Ciclo2-Unidad4-JPA.git
+En la consola

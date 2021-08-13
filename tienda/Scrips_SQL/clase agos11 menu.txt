@@ -1,0 +1,42 @@
+ControladorCliente ctrlCliente = new ControladorCliente();
+caso 1
+/*Objeto cliente*/
+                Cliente nuevoCliente = new Cliente(ident, nombre, apellido);
+                // cli1.insertarCliente(nuevoCliente, conexionBD);
+                ctrlCliente.crearCliente(nuevoCliente, conexionBD);
+caso 2
+case "2":
+                /*Consulta cliente*/
+                // String clientes = cli1.mostrarClientes(conexionBD);
+                String clientes = ctrlCliente.listarClientes(conexionBD);
+                JOptionPane.showMessageDialog(null, clientes, "Listado de clientes", JOptionPane.INFORMATION_MESSAGE);
+                break;
+public void crearCliente(Cliente nuevoCliente, SqliteConnection conexionBD) {
+        ClienteDAO cli1 = new ClienteDAO();
+        cli1.insertarCliente(nuevoCliente, conexionBD);
+    }
+public String listarClientes(SqliteConnection conexionBD) {
+        ClienteDAO cli1 = new ClienteDAO();
+        String clientes = cli1.mostrarClientes(conexionBD);
+        return clientes;
+    }
+public String listarProductosCliente(String idenCliente, SqliteConnection conexionBD) {
+        ClienteDAO cli1 = new ClienteDAO();
+        String productos = cli1.listarProductosPorCliente(idenCliente, conexionBD);
+        return productos;
+    }
+case "3":
+                String identCliente = JOptionPane.showInputDialog(null, "Ingrese la identificación del cliente a buscar:", "LA TIENDA DE ROPA", JOptionPane.QUESTION_MESSAGE);
+                // String productos = cli1.listarProductosPorCliente(identCliente, conexionBD);
+                String productos = ctrlCliente.listarProductosCliente(identCliente, conexionBD);
+                JOptionPane.showMessageDialog(null, productos, "Listado de productos comprados por cliente", JOptionPane.INFORMATION_MESSAGE);
+                break;
+public String listarProductosCliente(String idenCliente, SqliteConnection conexionBD) {
+        ClienteDAO cli1 = new ClienteDAO();
+        String productos = cli1.listarProductosPorCliente(idenCliente, conexionBD);
+        return productos;
+    }
+
+---
+https://github.com/ciaocamilo/misiontic2022/tree/main/Plantilla%20Reto%204%20-%20Grupo%2066
+--------------------
